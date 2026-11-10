@@ -1,0 +1,16 @@
+-r requirements-analysis.txt
+# The recorded GPU runtime used the CUDA 12.8 build of torch 2.7.1.
+# Install the appropriate PyTorch build for the host before this file.
+torch==2.7.1
+torchvision==0.22.1
+transformers @ git+https://github.com/huggingface/transformers.git@c7ad72879438c7d83955394312cea9f437e9f43b
+accelerate==1.14.0
+huggingface-hub==1.33.0
+tokenizers==0.22.2
+safetensors==0.8.0
+sentencepiece==0.2.0
+protobuf==5.28.3
+Pillow==12.3.0
+psutil==7.2.2
+# Dataset acquisition in the reference implementation (its declared version).
+datasets==5.0.0

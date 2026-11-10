@@ -1,0 +1,49 @@
+target_index,comparator,reference,population,difference_tv,lower_simultaneous,upper_simultaneous,se,documents,family_size,scope
+3,fixed_pair_0_1,joint,mixture,0.0680015478885959,0.0609251331802176,0.0750779625969742,0.0023351256401049,4096,42,fresh_cluster_confirmation
+3,fixed_pair_0_2,joint,mixture,0.006447913920983,0.0042270587982959,0.0086687690436701,0.0007328535640802,4096,42,fresh_cluster_confirmation
+3,fixed_pair_1_2,joint,mixture,0.0,0.0,0.0,0.0,4096,42,fresh_cluster_confirmation
+3,joint_cheap,joint,mixture,0.0009322503025977,0.000447882743817,0.0014166178613783,0.0001598350509905,4096,42,fresh_cluster_confirmation
+3,cheap_pair_0_1,fixed_pair_0_1,mixture,0.0,0.0,0.0,0.0,4096,42,fresh_cluster_confirmation
+3,cheap_pair_0_2,fixed_pair_0_2,mixture,0.0008718689857425,0.0003964744207028,0.0013472635507822,0.0001568740787162,4096,42,fresh_cluster_confirmation
+3,cheap_pair_1_2,fixed_pair_1_2,mixture,0.0009322503025977,0.000447882743817,0.0014166178613783,0.0001598350509905,4096,42,fresh_cluster_confirmation
+4,fixed_pair_0_1,joint,mixture,0.059113451130569,0.0519492121205381,0.0662776901405998,0.0023641065276115,4096,42,fresh_cluster_confirmation
+4,fixed_pair_0_2,joint,mixture,0.0061234019282644,0.0039832840538027,0.0082635198027261,0.0007062113128538,4096,42,fresh_cluster_confirmation
+4,fixed_pair_1_2,joint,mixture,0.0,0.0,0.0,0.0,4096,42,fresh_cluster_confirmation
+4,joint_cheap,joint,mixture,0.0009655622560253,0.0003681185680538,0.0015630059439969,0.0001971487160933,4096,42,fresh_cluster_confirmation
+4,cheap_pair_0_1,fixed_pair_0_1,mixture,0.0005386777827061,0.0001953570360701,0.0008819985293422,0.0001132914210497,4096,42,fresh_cluster_confirmation
+4,cheap_pair_0_2,fixed_pair_0_2,mixture,0.0009243250578721,0.0002773180019039,0.0015713321138403,0.0002135039886697,4096,42,fresh_cluster_confirmation
+4,cheap_pair_1_2,fixed_pair_1_2,mixture,0.0009655622560253,0.0003681185680538,0.0015630059439969,0.0001971487160933,4096,42,fresh_cluster_confirmation
+3,fixed_pair_0_1,joint,arxiv_train_shard0,0.0632391327973927,0.0542937813645194,0.072184484230266,0.0029518506689441,2048,42,fresh_cluster_confirmation
+3,fixed_pair_0_2,joint,arxiv_train_shard0,0.0043232038350808,0.0019168893401094,0.0067295183300521,0.0007940527663975,2048,42,fresh_cluster_confirmation
+3,fixed_pair_1_2,joint,arxiv_train_shard0,0.0,0.0,0.0,0.0,2048,42,fresh_cluster_confirmation
+3,joint_cheap,joint,arxiv_train_shard0,0.0003607605358945,-0.0001909388844696,0.0009124599562587,0.000182053697418,2048,42,fresh_cluster_confirmation
+3,cheap_pair_0_1,fixed_pair_0_1,arxiv_train_shard0,0.0,0.0,0.0,0.0,2048,42,fresh_cluster_confirmation
+3,cheap_pair_0_2,fixed_pair_0_2,arxiv_train_shard0,0.0003455551920611,-0.0002428996360216,0.000934010020144,0.0001941825081948,2048,42,fresh_cluster_confirmation
+3,cheap_pair_1_2,fixed_pair_1_2,arxiv_train_shard0,0.0003607605358945,-0.0001909388844696,0.0009124599562587,0.000182053697418,2048,42,fresh_cluster_confirmation
+4,fixed_pair_0_1,joint,arxiv_train_shard0,0.0580953080345538,0.0488854190287071,0.0673051970404006,0.0030391446581855,2048,42,fresh_cluster_confirmation
+4,fixed_pair_0_2,joint,arxiv_train_shard0,0.0041133858052819,0.0018477936083012,0.0063789780022627,0.0007476162219446,2048,42,fresh_cluster_confirmation
+4,fixed_pair_1_2,joint,arxiv_train_shard0,0.0,0.0,0.0,0.0,2048,42,fresh_cluster_confirmation
+4,joint_cheap,joint,arxiv_train_shard0,0.0006123532380388,-1.839941471493481e-05,0.0012431058907925,0.0002081402451252,2048,42,fresh_cluster_confirmation
+4,cheap_pair_0_1,fixed_pair_0_1,arxiv_train_shard0,0.0003405996242382,-0.0001312904564606,0.0008124897049371,0.0001557176440558,2048,42,fresh_cluster_confirmation
+4,cheap_pair_0_2,fixed_pair_0_2,arxiv_train_shard0,0.0005657453743922,-0.0002348592017462,0.0013663499505308,0.0002641891904827,2048,42,fresh_cluster_confirmation
+4,cheap_pair_1_2,fixed_pair_1_2,arxiv_train_shard0,0.0006123532380388,-1.839941471493481e-05,0.0012431058907925,0.0002081402451252,2048,42,fresh_cluster_confirmation
+3,fixed_pair_0_1,joint,wikitext103,0.0727639629797991,0.0617965900836949,0.0837313358759034,0.0036190916883324,2048,42,fresh_cluster_confirmation
+3,fixed_pair_0_2,joint,wikitext103,0.0085726240068853,0.0048392019231726,0.0123060460905979,0.0012319811645139,2048,42,fresh_cluster_confirmation
+3,fixed_pair_1_2,joint,wikitext103,0.0,0.0,0.0,0.0,2048,42,fresh_cluster_confirmation
+3,joint_cheap,joint,wikitext103,0.0015037400693008,0.000707451505044,0.0023000286335576,0.0002627649621943,2048,42,fresh_cluster_confirmation
+3,cheap_pair_0_1,fixed_pair_0_1,wikitext103,0.0,0.0,0.0,0.0,2048,42,fresh_cluster_confirmation
+3,cheap_pair_0_2,fixed_pair_0_2,wikitext103,0.0013981827794238,0.0006513756522597,0.002144989906588,0.0002464367257602,2048,42,fresh_cluster_confirmation
+3,cheap_pair_1_2,fixed_pair_1_2,wikitext103,0.0015037400693008,0.000707451505044,0.0023000286335576,0.0002627649621943,2048,42,fresh_cluster_confirmation
+4,fixed_pair_0_1,joint,wikitext103,0.0601315942265841,0.0491551090481958,0.0711080794049723,0.0036220986240305,2048,42,fresh_cluster_confirmation
+4,fixed_pair_0_2,joint,wikitext103,0.0081334180512469,0.0045019569040856,0.0117648791984081,0.0011983353697093,2048,42,fresh_cluster_confirmation
+4,fixed_pair_1_2,joint,wikitext103,0.0,0.0,0.0,0.0,2048,42,fresh_cluster_confirmation
+4,joint_cheap,joint,wikitext103,0.0013187712740119,0.0003039279697367,0.0023336145782871,0.0003348852092707,2048,42,fresh_cluster_confirmation
+4,cheap_pair_0_1,fixed_pair_0_1,wikitext103,0.0007367559411741,0.0002379611015647,0.0012355507807835,0.000164595867699,2048,42,fresh_cluster_confirmation
+4,cheap_pair_0_2,fixed_pair_0_2,wikitext103,0.0012829047413519,0.0002662903431868,0.0022995191395171,0.0003354696474253,2048,42,fresh_cluster_confirmation
+4,cheap_pair_1_2,fixed_pair_1_2,wikitext103,0.0013187712740119,0.0003039279697367,0.0023336145782871,0.0003348852092707,2048,42,fresh_cluster_confirmation
+3,Gamma_best_fixed_pair,joint,mixture,0.0,0.0,0.0,,4096,42,min endpoints of simultaneous fixed-pair intervals
+3,Gamma_best_fixed_pair,joint,arxiv_train_shard0,0.0,0.0,0.0,,2048,42,min endpoints of simultaneous fixed-pair intervals
+3,Gamma_best_fixed_pair,joint,wikitext103,0.0,0.0,0.0,,2048,42,min endpoints of simultaneous fixed-pair intervals
+4,Gamma_best_fixed_pair,joint,mixture,0.0,0.0,0.0,,4096,42,min endpoints of simultaneous fixed-pair intervals
+4,Gamma_best_fixed_pair,joint,arxiv_train_shard0,0.0,0.0,0.0,,2048,42,min endpoints of simultaneous fixed-pair intervals
+4,Gamma_best_fixed_pair,joint,wikitext103,0.0,0.0,0.0,,2048,42,min endpoints of simultaneous fixed-pair intervals

@@ -1,0 +1,194 @@
+{
+  "campaign": "AURUM",
+  "version": 1,
+  "status": "starting development configuration, not frozen confirmation protocol",
+  "output_namespace": "runs/aurum",
+  "legacy_namespace": "experiments/runs/v2/rich_behavior",
+  "initial_target_ids": [
+    3,
+    4
+  ],
+  "initial_peer_pool_ids": [
+    0,
+    1,
+    2
+  ],
+  "calls": 2,
+  "initial_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "state_unit": "bytes",
+  "state_caps": [
+    128,
+    512,
+    2048,
+    8192,
+    32768,
+    131072,
+    524288,
+    2097152
+  ],
+  "primary_metric": "full_support_TV",
+  "secondary_metrics": [
+    "forward_KL",
+    "argmax_disagreement",
+    "actual_bytes"
+  ],
+  "seed_start": 20261110,
+  "optimization_seeds_on_promising_configs": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "inner_grouped_folds": 3,
+  "initial_basis": "legacy_selected_peer_logit_SVD",
+  "basis_ranks_first": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "basis_ranks_extension": [
+    256,
+    512
+  ],
+  "factor_ranks": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "mlp_widths": [
+    16,
+    32,
+    64
+  ],
+  "anchor_objective_ablation": [
+    {
+      "id": "L0",
+      "anchor": "legacy_nnls",
+      "loss": "legacy_projected_logit_mse"
+    },
+    {
+      "id": "L1",
+      "anchor": "competitive_legacy_cheap",
+      "loss": "legacy_projected_logit_mse"
+    },
+    {
+      "id": "L2",
+      "anchor": "legacy_nnls",
+      "loss": "full_support_forward_kl"
+    },
+    {
+      "id": "L3",
+      "anchor": "competitive_legacy_cheap",
+      "loss": "full_support_forward_kl"
+    },
+    {
+      "id": "L4",
+      "anchor": "competitive_cheap",
+      "loss": "kl_warm_start_then_tv"
+    }
+  ],
+  "cheap_menu": [
+    "legacy_convex",
+    "legacy_nnls",
+    "equal_logit_mean",
+    "equal_probability_mean",
+    "single_peer",
+    "single_peer_temperature",
+    "kl_logit_mixture",
+    "kl_probability_mixture",
+    "tv_refined_calibration"
+  ],
+  "residual_menu": [
+    "anchored_linear",
+    "anchored_factored",
+    "response_gate",
+    "anchored_mlp"
+  ],
+  "optional_capacity_repairs": [
+    "peer_probability_basis",
+    "larger_peer_only_basis",
+    "charged_target_output_bias",
+    "charged_target_output_factor"
+  ],
+  "codecs": [
+    "fp32",
+    "fp16",
+    "int8",
+    "int4"
+  ],
+  "learning_rates_first": [
+    0.001,
+    0.0003
+  ],
+  "weight_decay_first": [
+    0.0,
+    0.0001
+  ],
+  "max_epochs_first": 100,
+  "inner_stop_patience": 10,
+  "tv_refine_epochs": 30,
+  "tv_refine_learning_rate": 0.0001,
+  "mini_batch_candidates": [
+    8,
+    16,
+    32
+  ],
+  "float_candidate_screen_before_codec_grid": true,
+  "fixed_policies": [
+    "fixed_native_full",
+    "fixed_unbounded_menu",
+    "fixed_mean_budget",
+    "fixed_minimax_regret",
+    "every_admissible_fixed_pair"
+  ],
+  "cheap_control": "joint_cheap",
+  "principal_selection_estimand": "Gamma=min_fixed_pair E_cluster E_frozen_budget[fixed_retuned_loss-joint_loss]",
+  "default_budget_weights": "equal_on_log_spaced_grid; freeze after development, retain whole grid",
+  "confirmation": {
+    "needs_new_clusters_after_method_development": true,
+    "same_declared_population": true,
+    "planning_tv_effect": 0.005,
+    "planning_power": 0.9,
+    "alpha": 0.05,
+    "draws": 10000,
+    "independent_unit": "whole_document_or_duplicate_cluster",
+    "lock_all_methods_before_outcomes": true
+  },
+  "success_reporting": {
+    "universal_win_required": false,
+    "all_secondary_endpoints_must_win": false,
+    "all_fixed_pairs_at_each_single_budget_must_lose": false,
+    "strong_fixed_controls_required": true,
+    "allow_localized_freshly_confirmed_finding": true,
+    "retain_complete_results": true
+  },
+  "first_sprint_ranks": [
+    32,
+    128
+  ],
+  "first_sprint_epochs": 40,
+  "first_sprint_patience": 10,
+  "first_sprint_lr": 0.001,
+  "first_sprint_batch_size": 32,
+  "first_sprint_weight_decay": 0.0,
+  "first_sprint_tv_refinement_epochs": 15,
+  "first_sprint_inner_fold": 0,
+  "first_sprint_data_scope": "Original rich fit/validation only. Refit legacy cheap coefficients on inner train; stopping on inner fold0; outervalidation for complete pair/menu comparison. Oldallfitdecodedanchors preserved as separately labeled fallbacks.",
+  "first_sprint_feature_scope": "Original peer-only SVD projections concatenated and standardized using selectedpeerfitdata only. Bias coefficients charged.",
+  "first_sprint_search_scope": "Comparable initial recipe over all six cells; no exhaustive optimizer Cartesian product before observed adaptation. Shared improvements subsequently available to all fixed and joint policies."
+}

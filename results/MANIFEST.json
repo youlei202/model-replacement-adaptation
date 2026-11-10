@@ -1,0 +1,212 @@
+[
+  {
+    "file": "results/PROVENANCE.csv",
+    "bytes": 9438,
+    "sha256": "1f3c62c542b24848e0ffc6b48da5c248d8c9822474c11ae4b2e198ef8a50b50b"
+  },
+  {
+    "file": "results/README.md",
+    "bytes": 1228,
+    "sha256": "189ef2a9bde226050cffd7d9eceadf72bb60dd5aedfd38bf7d4f783f8614febe"
+  },
+  {
+    "file": "results/corrected_sampling/all_cells_budget_gains.csv",
+    "bytes": 66143,
+    "sha256": "b6b59ce659f03a513fb51398c75a3dd9baaa7ba88c51260f25dd04e8c734d22e"
+  },
+  {
+    "file": "results/corrected_sampling/all_cells_policy_gains_per_seed.csv",
+    "bytes": 292638,
+    "sha256": "0eebc54e127297bb0c851ad55089d371d85d0a2b466a050dba12550888535b48"
+  },
+  {
+    "file": "results/corrected_sampling/all_q2_peer_pair_scores_per_seed.csv",
+    "bytes": 458201,
+    "sha256": "372e8f47076976b617aff4261dd3e68c7ad7ed922fc83f6997325d95f8914199"
+  },
+  {
+    "file": "results/corrected_sampling/all_q2_peer_pair_scores_summary.csv",
+    "bytes": 47003,
+    "sha256": "796a7fcac18a14631e0f9abbc6366384cea615a1c953ce85ad10334df1785fa9"
+  },
+  {
+    "file": "results/corrected_sampling/cross_seed_overlap.csv",
+    "bytes": 1326,
+    "sha256": "42ee0b46de71a622e80960c55123761a066af89630431c875d4446a6e2f43efd"
+  },
+  {
+    "file": "results/corrected_sampling/domain_counts.csv",
+    "bytes": 313146,
+    "sha256": "b583f8ede5ddf2a4d48f0ec4b6284011907a4364177dd00b3a357b82272267d5"
+  },
+  {
+    "file": "results/corrected_sampling/domain_label_counts.csv",
+    "bytes": 985106,
+    "sha256": "95bde0116d14fb9243c92337c5e6d94bd49c71ef7340014b7012f63df16497fd"
+  },
+  {
+    "file": "results/corrected_sampling/gemma_hellaswag_compact_per_seed.csv",
+    "bytes": 10207,
+    "sha256": "7d89f202d0e162ba5375bad12aeaf8858da036c3bd670235191198cfd659b396"
+  },
+  {
+    "file": "results/corrected_sampling/gemma_hellaswag_compact_summary.csv",
+    "bytes": 2223,
+    "sha256": "3a49f8b207f7ff3e6f8fdcc4113811892e2bc08f0a66128e878a3397347c7c18"
+  },
+  {
+    "file": "results/corrected_sampling/label_counts.csv",
+    "bytes": 22342,
+    "sha256": "8d31d8a5d9aef468a6c9e81fbb2866148acfc86bebc3715fe4ddb782551d433a"
+  },
+  {
+    "file": "results/corrected_sampling/overlap_audit.csv",
+    "bytes": 7948,
+    "sha256": "45a0810d609b6a66b621fdb75c5fe28ece7645f913451cdcfd6b7c1584491d9b"
+  },
+  {
+    "file": "results/corrected_sampling/per_split_paired_contrasts.csv",
+    "bytes": 1348720,
+    "sha256": "26ce8a0241b261e0a5c1a61eaaea2dcf43c8cd7a1c941dd663aaa87ec479a8e5"
+  },
+  {
+    "file": "results/corrected_sampling/predetermined_zero_state_references.csv",
+    "bytes": 29571,
+    "sha256": "3126c9972eeaec91f5623867f2fb12a52ad5568ee65ced2cac2403401dcb9c1e"
+  },
+  {
+    "file": "results/corrected_sampling/primary_qwen_mmlu_per_seed.csv",
+    "bytes": 33513,
+    "sha256": "5b29e6d5c8570406b96e76a27c32a805b1c14c2dbbefa38fe4035542ebc8ca16"
+  },
+  {
+    "file": "results/corrected_sampling/primary_qwen_mmlu_summary.csv",
+    "bytes": 8065,
+    "sha256": "3e140b0655b4130de694498c29307f7db18371e38b52233a51af173c133bc920"
+  },
+  {
+    "file": "results/corrected_sampling/q3_nnls_vs_krr_summary.csv",
+    "bytes": 22371,
+    "sha256": "fd5d266ada4f55ad548d72d4af21b1a3b11e86ed2ea029fe474422db0bdb82a7"
+  },
+  {
+    "file": "results/corrected_sampling/qwen_mmlu_complete_pairs.csv",
+    "bytes": 514,
+    "sha256": "b7f6571d53ad8fa5b7c82be554c07a594908939049872e2f03e723b94f3d8d5f"
+  },
+  {
+    "file": "results/corrected_sampling/qwen_mmlu_complete_pairs_per_seed.csv",
+    "bytes": 13139,
+    "sha256": "1d39b72ab3062910c02f4ec12af1101d3b2e4e1feb8ccaabf24ed2a3d4ddc392"
+  },
+  {
+    "file": "results/corrected_sampling/zero_state_input_hashes.csv",
+    "bytes": 4988,
+    "sha256": "e429ca4402af25a944be92923d37c36c624dc60f37e26eae2ee458349511626a"
+  },
+  {
+    "file": "results/inference_resources/all_cap_quality.csv",
+    "bytes": 98535,
+    "sha256": "e165675bdfa2e33cd775ee09a413ea0765329e7d723e54718865c2cd4e539691"
+  },
+  {
+    "file": "results/inference_resources/all_grid_comparators.csv",
+    "bytes": 7231,
+    "sha256": "099e2544e71517b62197274dcf15e9e0e7530eafbe41be7afa3b48e03b5de4dc"
+  },
+  {
+    "file": "results/inference_resources/complete_cap_outcomes.csv",
+    "bytes": 163456,
+    "sha256": "5e1965bdd0f4c753cb2ab8d78a42c0747d484a02ffff474744aa10b8eed87f79"
+  },
+  {
+    "file": "results/inference_resources/coordinate_endpoint_resources.csv",
+    "bytes": 28620,
+    "sha256": "b0ddf4ad12f5952b8a677a68e31a68f065c19a3625132d2d1408422cf0f9818c"
+  },
+  {
+    "file": "results/inference_resources/joint_quality_resource_outcomes.csv",
+    "bytes": 7942,
+    "sha256": "a101a2c506b2ae9e1aef3b0b011e7470dfbb39bcadcbfb236211f2cdcf7d51c3"
+  },
+  {
+    "file": "results/inference_resources/probability_endpoint_cap_checks.csv",
+    "bytes": 116071,
+    "sha256": "524ce93a223578d7d24981a39b865ce82c3983467e8836c201590bfd37d825cb"
+  },
+  {
+    "file": "results/inference_resources/probability_endpoint_resources.csv",
+    "bytes": 5694,
+    "sha256": "31c8c84ccd810af6efff4b032cb7d01f4c06c03fc72527a8fb74047fbe1d67dd"
+  },
+  {
+    "file": "results/inference_resources/selected_38_40_GiB_points.csv",
+    "bytes": 8701,
+    "sha256": "6282a8fd50ac690bee28395ef2eb881bfe0426313275d3d9fd1f3e1003511320"
+  },
+  {
+    "file": "results/state_constraints/academic_mcq_confirmation_4891.csv",
+    "bytes": 2933,
+    "sha256": "9feac2a082b8c224539bdaef1f725265cc1608e08acd754e142c13cbd077e420"
+  },
+  {
+    "file": "results/state_constraints/adapter_capacity_curves.csv",
+    "bytes": 112971,
+    "sha256": "bd5df73eaa9c407f36b7f40eeb0127caba9cc385e98919b699d69690145e9114"
+  },
+  {
+    "file": "results/state_constraints/adapter_resource_measurements.csv",
+    "bytes": 25382,
+    "sha256": "226690514b09952d486e5be51f035c0a7f65ba052c3e97107d4aca99478b509d"
+  },
+  {
+    "file": "results/state_constraints/all_peer_pairs.csv",
+    "bytes": 112971,
+    "sha256": "bd5df73eaa9c407f36b7f40eeb0127caba9cc385e98919b699d69690145e9114"
+  },
+  {
+    "file": "results/state_constraints/anchor_loss_ablation.csv",
+    "bytes": 51504,
+    "sha256": "d2c304ee65d5936805d8b81293b19e7829ea40bdbcdc2a72b61971d116e664b9"
+  },
+  {
+    "file": "results/state_constraints/confirmation_per_cluster.parquet",
+    "bytes": 1685478,
+    "sha256": "d7c207326b5daa054f55dc2009f839131710ef9b8839f399a982ac701a119001"
+  },
+  {
+    "file": "results/state_constraints/confirmation_policy_summary.csv",
+    "bytes": 29995,
+    "sha256": "0f95dd537e02a4056fc0041bfb40c38d12486bf714e795e1e83113f763bd851b"
+  },
+  {
+    "file": "results/state_constraints/fixed_choice_price.csv",
+    "bytes": 6597,
+    "sha256": "37dbddaf6c6f3f5b531089e5176e2999ccb4ed778278e7f3e3984ce45ac13759"
+  },
+  {
+    "file": "results/state_constraints/main_results.csv",
+    "bytes": 846,
+    "sha256": "d504598feed6faee21474a6190bbf2486285d841286c786de4c55296c5ae3cc3"
+  },
+  {
+    "file": "results/state_constraints/mcq_fixed_choice_price_development.csv",
+    "bytes": 2933,
+    "sha256": "211fac70ae9ea81d2ce45c10497463c9c83beb41442456ee39d13aac59e28074"
+  },
+  {
+    "file": "results/state_constraints/public_and_target_state.csv",
+    "bytes": 40963,
+    "sha256": "dc0a39622248b37dddb5dd31f5959608eeeda8414ce9fe275be53e4325f81103"
+  },
+  {
+    "file": "results/state_constraints/rich_learning_curve_summary.csv",
+    "bytes": 24052,
+    "sha256": "6fc2e81692add715127b66317d2e4163a7fb7029247cc6dfe642569882f0f14b"
+  },
+  {
+    "file": "results/state_constraints/rich_seed_sensitivity.csv",
+    "bytes": 12302,
+    "sha256": "32b8cc16b8e893b2438039a008ee78b93bdf0b1f00f47290f84dac2f08e650ce"
+  }
+]

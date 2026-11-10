@@ -1,0 +1,19 @@
+task,target_index,Gamma_development,best_fixed_pair,joint_pairs,joint_weighted_tv,joint_cheap_minus_joint,caps_bytes,scope
+hellaswag,0,0.0,"3,5","3,5",0.2894013408036926,0.0,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+hellaswag,1,0.0,"2,3","2,3",0.3105596285713545,0.0,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+hellaswag,2,0.0,"3,5","3,5",0.2378753345624955,0.0,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+hellaswag,3,0.0003802476422635,"2,4","0,4;2,4",0.1819553016211641,0.0008609809085073,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+hellaswag,4,0.0,"0,3","0,3",0.1703617931529377,0.000809702842431,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+hellaswag,5,0.0,"2,4","2,4",0.2574814902460694,0.0,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+mmlu_pro,0,0.0,"2,5","2,5",0.4393767719687114,0.003223913940709,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+mmlu_pro,1,0.0,"2,5","2,5",0.4390563731119203,0.0002542637105632,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+mmlu_pro,2,0.0,"0,3","0,3",0.3236288180929114,0.0009989673402253,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+mmlu_pro,3,0.0,"2,4","2,4",0.3696542465524713,0.0012911849696879,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+mmlu_pro,4,0.0,"0,2","0,2",0.49333532472406,0.0001396220521858,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+mmlu_pro,5,0.0,"0,1","0,1",0.516292136783786,0.0,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+rewardbench,0,0.0,"2,5","2,5",0.1300855077958189,0.0038137559646914,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+rewardbench,1,0.0,"0,3","0,3",0.1819387362874201,0.0104458726646729,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+rewardbench,2,0.0,"0,3","0,3",0.1362012874657239,0.0,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+rewardbench,3,0.0,"1,4","1,4",0.1128449332469734,0.0020782744343415,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+rewardbench,4,0.0,"1,3","1,3",0.1146117932311836,0.0003761455550781,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort
+rewardbench,5,0.0,"2,3","2,3",0.2047229201127152,0.0033431084914781,"128,256,512,1024,2048,4096,8192",exploratory development; selected on same validation cohort

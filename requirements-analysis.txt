@@ -1,0 +1,13 @@
+# Core numerical, table, plotting and test dependencies used by the experiments.
+# Python 3.11 is the recorded interpreter series.
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+pyarrow==21.0.0
+scikit-learn==1.5.2
+cvxpy==1.6.0
+ecos==2.0.14
+threadpoolctl==3.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
+pytest==9.2.0

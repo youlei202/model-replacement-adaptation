@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+.env
+.env.*
+*.pem
+*.key
+runs/
+benchmarks/splits/
+benchmarks/response_cache/
+benchmarks/results*/
+experiments/runs/
+reference_implementation/data/
+reference_implementation/results/
+*.partial
+*.partial.*

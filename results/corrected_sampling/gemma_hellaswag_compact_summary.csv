@@ -1,0 +1,11 @@
+family,q,budget_bits,budget_label,split_count,actual_bits_min,actual_bits_max,test_tv_mean,test_tv_min,test_tv_max,tv_minus_full_precision_krr_mean,tv_minus_full_precision_krr_min,tv_minus_full_precision_krr_max,reference_note
+convex,3,-1,full_precision,5,368,368,0.318397039415,0.301869533556,0.337143833016,0.0914301326085,0.0782529678385,0.10435113831,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+convex,3,848,848,5,184,184,0.306122329065,0.289553897242,0.321076901393,0.0791554222584,0.0690595654869,0.0882842066868,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+convex,3,1024,1024,5,184,184,0.306122329065,0.289553897242,0.321076901393,0.0791554222584,0.0690595654869,0.0882842066868,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+fixed_mean,3,0,0,5,0,0,0.308506313967,0.295372206205,0.314949075251,0.0815394071604,0.0790884854956,0.0850311794442,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+krr,3,-1,full_precision,5,393392,393392,0.226966906807,0.211470245433,0.235164028718,0.0,0.0,0.0,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+krr,3,848,848,5,368,464,0.22828932774,0.216808470156,0.236460569171,0.00132242093326,-0.00145101379093,0.00533822472326,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+krr,3,1024,1024,5,368,464,0.22828932774,0.216808470156,0.236460569171,0.00132242093326,-0.00145101379093,0.00533822472326,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+nnls,3,-1,full_precision,5,368,368,0.232990361377,0.217989147718,0.241045020827,0.00602345456988,0.00465882140778,0.008032692185,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+nnls,3,848,848,5,216,224,0.231005765705,0.21726012963,0.241396337413,0.00403885889787,0.000223212527174,0.0062323086949,"Full-precision KRR is an empirical reference, not an irreducible error floor."
+nnls,3,1024,1024,5,216,224,0.231005765705,0.21726012963,0.241396337413,0.00403885889787,0.000223212527174,0.0062323086949,"Full-precision KRR is an empirical reference, not an irreducible error floor."
